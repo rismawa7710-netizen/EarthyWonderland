@@ -327,6 +327,48 @@
             font-size: 0.95rem;
         }
 
+        /* --- SECTION ANGGOTA KELOMPOK (BARU) --- */
+        #tim-kelompok {
+            padding: 80px 0;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .team-card {
+            background: white;
+            padding: 20px;
+            border-radius: 25px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+            border: 2px dashed var(--ghibli-light-green);
+        }
+
+        .team-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid var(--ghibli-green);
+        }
+
+        .team-card h3 {
+            font-size: 1.1rem;
+            color: var(--ghibli-dark);
+            margin-bottom: 5px;
+        }
+
+        .team-card p {
+            font-size: 0.85rem;
+            color: var(--ghibli-light-green);
+            font-weight: bold;
+        }
+
         /* --- FOOTER --- */
         footer {
             background-color: var(--ghibli-dark);
@@ -334,7 +376,7 @@
             padding: 40px 0;
             margin-top: 60px;
         }
-
+        
         @media (max-width: 768px) {
             .navbar { flex-direction: column; gap: 15px; }
             .sejarah-grid, .visimisi-content, .produk-wrapper, .media-container { flex-direction: column; gap: 20px; }
@@ -417,7 +459,7 @@
             <div class="produk-detail">
                 <span class="badge">Edisi Terbatas</span>
                 <h3>Earthy Wonderland Classic Edition No.1</h3>
-                <p class="price">Rp 25.000</p>
+                <p class="price">Rp 30.000</p>
                 <p>Cangkir bambu premium, dipotong dari bambu pilihan dan dilapisi dengan <em>food-grade water coating</em> yang aman. Memiliki serat alami yang unik di setiap cangkirnya, memberikan sensasi minum di tengah hutan yang damai.</p>
                 
                 <div class="brosur-box">
@@ -483,7 +525,65 @@
             </div>
         </div>
     </section>
-
+     <section id="tim-kelompok" class="container">
+        <div class="section-title">
+            <h2>Anggota Kelompok 1</h2>
+            <p>Tim Kreatif di Balik Pembuatan Projek Earthy Wonderland</p>
+        </div>
+        <div class="team-grid">
+            <div class="team-card">
+                <img src="https://i.pinimg.com/736x/80/0c/17/800c17947ab36ed5facb36fa6d2a664f.jpg" alt="Foto Adit">
+                <h3>Aditya Apriansyah X.PM B</h3>
+                <p>Kelompok 1</p>
+            </div>
+            <div class="team-card">
+                <img src="https://i.pinimg.com/736x/f4/38/17/f438178ffe97d70dae5d708d482611a0.jpg" alt="Foto Cahya">
+                <h3>Cahya Aulia Putri X.DKV</h3>
+                <p>Kelompok 1</p>
+            </div>
+            <div class="team-card">
+                <img src="https://i.pinimg.com/736x/84/8d/63/848d63dafd5d3a75c1674a3499b0ec12.jpg" alt="Foto Cherly">
+                <h3>Cherly Lestari X.PM A</h3>
+                <p>Kelompok 1</p>
+            </div>
+            <div class="team-card">
+                <img src="https://i.pinimg.com/736x/8e/98/ed/8e98ed50c01fb6e6ee7464ffd3e61d86.jpg" alt="Foto Dany">
+                <h3>Dany Maulana Fajrian X.DKV</h3>
+                <p>Kelompok 1</p>
+            </div>
+            <div class="team-card">
+                <img src="https://i.pinimg.com/736x/c4/91/27/c4912775dba79326c8e29c8f1efdb9cd.jpg" alt="Foto Intan">
+                <h3>Intan Nuraeni X.PM B</h3>
+                <p>Kelompok 1</p>
+            </div>
+            <div class="team-card">
+                <img src="https://i.pinimg.com/736x/4a/6f/56/4a6f56f91d90583e7dbb56bc33c067be.jpg" alt="Foto Keyla">
+                <h3>Keyla Maharani Aprilia X.MPLB B</h3>
+                <p>Kelompok 1</p>
+            </div>
+            <div class="team-card">
+                <img src="https://i.pinimg.com/736x/56/77/46/5677464ca1e4b094e3460941a4df2639.jpg" alt="Foto Fauzan">
+                <h3>M.Fauzan Ghonim X.MPLB A </h3>
+                <p>Kelompok 1</p>
+            </div>
+            <div class="team-card">
+                <img src="https://i.pinimg.com/736x/d5/a3/8e/d5a38e25785ff9c2649406b3b4983c0d.jpg" alt="Foto Khaerul">
+                <h3>M.Khaerul R X.MPLB B </h3>
+                <p>Kelompok 1</p>
+            </div>
+            <div class="team-card">
+                <img src="https://i.pinimg.com/736x/ae/15/47/ae15472b18b943b97841ffdc4c0d9114.jpg" alt="Foto Rini">
+                <h3>Rini Wijaya X.DKV</h3>
+                <p>Kelompok 1</p>
+            </div>
+            <div class="team-card">
+                <img src="https://i.pinimg.com/736x/ae/15/47/ae15472b18b943b97841ffdc4c0d9114.jpg" alt="Foto Risma">
+                <h3>Risma Wati Dewi X.TJKT</h3>
+                <p>Kelompok 1</p>
+            </div>
+        </div>
+    </section>
+    
     <footer>
         <div class="container text-center">
             <p>&copy; 2026 Earthy Wonderland. @Adit, @Cahya, @Cherly, @Dany, @Intan, @Keyla, @Fauzan, @Khaerul, @Rini, @Risma. Terinspirasi oleh Keajaiban Alam & Studio Ghibli.</p>
